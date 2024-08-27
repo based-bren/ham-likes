@@ -23,8 +23,8 @@ export default function Home() {
           className={styles.logo}
           src="/meditate pepe.gif"
           alt="Next.js Logo"
-          width={180}
-          height={37}
+          width={800}
+          height={800}
           priority
         />
       </div>
