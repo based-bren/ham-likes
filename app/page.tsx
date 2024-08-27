@@ -15,7 +15,13 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default function Home() {
   return (
-    <main className={styles.main}>      
+    <main className={styles.main}>   
+
+    <div className={styles.center}>
+        <p>
+          Let the ham flow through you
+        </p>
+      </div>   
         
 
       <div className={styles.center}>
