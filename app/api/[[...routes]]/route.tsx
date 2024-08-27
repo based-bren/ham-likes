@@ -6,6 +6,7 @@ import { devtools } from 'frog/dev'
 import { handle } from 'frog/next'
 import { serveStatic } from 'frog/serve-static'
 
+
 const app = new Frog({
   assetsPath: '/',
   basePath: '/api',
