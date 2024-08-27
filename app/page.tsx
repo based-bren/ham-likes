@@ -19,43 +19,17 @@ export default function Home() {
       <div className={styles.description}>
         <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
           <p>
-            Get started by editing&nbsp;
+            Let the ham flow through you&nbsp;
             <code className={styles.code}>app/page.tsx</code>
           </p>
-          <p>
-            Head to{' '}
-            <a
-              href="/api/dev"
-              style={{ display: 'inline', fontWeight: 'semibold' }}
-            >
-              <code className={styles.code}>localhost:3000/api</code>
-            </a>{' '}
-            for your frame endpoint.
-          </p>
+          
         </div>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+        
 
       <div className={styles.center}>
         <Image
           className={styles.logo}
-          src="/next.svg"
+          src="/meditate pepe.gif"
           alt="Next.js Logo"
           width={180}
           height={37}
