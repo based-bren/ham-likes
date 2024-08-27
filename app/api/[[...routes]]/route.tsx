@@ -45,7 +45,8 @@ app.frame('/picker', (c) => {
       image: "https://azure-ready-parakeet-471.mypinata.cloud/ipfs/QmPanvet46EwhDJQ85X3uf9ntmue99rjDBVViRKNeEaPjh",
       imageAspectRatio: '1:1',
       intents: [
-       <Button >Start Over 🔄</Button>
+       <Button >Start Over 🔄</Button>,
+       <Button.Redirect location="https://ham-likes.vercel.app/">Meditate</Button.Redirect>
     ],
   })
 
@@ -58,7 +59,8 @@ app.frame('/picker', (c) => {
       image: "https://azure-ready-parakeet-471.mypinata.cloud/ipfs/QmRdMBCDnxjnw6SJ2farcPY63gER6yVjTVRF2o7nS4deBP",
       imageAspectRatio: '1:1',
       intents: [
-       <Button >Start Over 🔄</Button>
+       <Button >Start Over 🔄</Button>,
+       <Button.Redirect location="https://ham-likes.vercel.app/">Meditate</Button.Redirect>
     ],
   })
 
@@ -71,7 +73,8 @@ app.frame('/picker', (c) => {
     image: "https://azure-ready-parakeet-471.mypinata.cloud/ipfs/QmceJbhTcyJtdWeqGbKqxoC2J9JmY9EpE5wa5yaBM13UHT",
     imageAspectRatio: '1:1',
     intents: [
-     <Button >Start Over 🔄</Button>
+     <Button >Start Over 🔄</Button>,
+     <Button.Redirect location="https://ham-likes.vercel.app/">Meditate</Button.Redirect>
   ],
 })
 
