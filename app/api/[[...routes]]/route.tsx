@@ -46,6 +46,7 @@ app.frame('/picker', (c) => {
       imageAspectRatio: '1:1',
       intents: [
        <Button >Start Over 🔄</Button>,
+       <Button.Link href="https://azure-ready-parakeet-471.mypinata.cloud/ipfs/QmPanvet46EwhDJQ85X3uf9ntmue99rjDBVViRKNeEaPjh">Image</Button.Link>,
        <Button.Link href="https://ham-likes.vercel.app/">Meditate</Button.Link>,
     ],
   })
@@ -60,6 +61,7 @@ app.frame('/picker', (c) => {
       imageAspectRatio: '1:1',
       intents: [
        <Button >Start Over 🔄</Button>,
+       <Button.Link href="https://azure-ready-parakeet-471.mypinata.cloud/ipfs/QmRdMBCDnxjnw6SJ2farcPY63gER6yVjTVRF2o7nS4deBP/">Image</Button.Link>,
        <Button.Link href="https://ham-likes.vercel.app/">Meditate</Button.Link>,
     ],
   })
@@ -74,6 +76,7 @@ app.frame('/picker', (c) => {
     imageAspectRatio: '1:1',
     intents: [
      <Button >Start Over 🔄</Button>,
+     <Button.Link href="https://azure-ready-parakeet-471.mypinata.cloud/ipfs/QmceJbhTcyJtdWeqGbKqxoC2J9JmY9EpE5wa5yaBM13UHT">Image</Button.Link>,
      <Button.Link href="https://ham-likes.vercel.app/">Meditate</Button.Link>,
   ],
 })
