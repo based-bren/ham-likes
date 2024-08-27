@@ -46,7 +46,7 @@ app.frame('/picker', (c) => {
       imageAspectRatio: '1:1',
       intents: [
        <Button >Start Over 🔄</Button>,
-       <Button.Redirect location="https://ham-likes.vercel.app/">Meditate</Button.Redirect>,
+       <Button.Link href="https://ham-likes.vercel.app/">Meditate</Button.Link>,
     ],
   })
 
@@ -60,7 +60,7 @@ app.frame('/picker', (c) => {
       imageAspectRatio: '1:1',
       intents: [
        <Button >Start Over 🔄</Button>,
-       <Button.Redirect location="https://ham-likes.vercel.app/">Meditate</Button.Redirect>,
+       <Button.Link href="https://ham-likes.vercel.app/">Meditate</Button.Link>,
     ],
   })
 
@@ -74,7 +74,7 @@ app.frame('/picker', (c) => {
     imageAspectRatio: '1:1',
     intents: [
      <Button >Start Over 🔄</Button>,
-     <Button.Redirect location="https://ham-likes.vercel.app/">Meditate</Button.Redirect>,
+     <Button.Link href="https://ham-likes.vercel.app/">Meditate</Button.Link>,
   ],
 })
 
