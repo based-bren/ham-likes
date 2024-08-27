@@ -20,7 +20,7 @@ const app = new Frog({
 app.frame('/', (c) => { 
   return c.res({
     action: '/picker',
-    image: '${process.env.NEXT_PUBLIC_SITE_URL}/initial.png',
+    image: "https://azure-ready-parakeet-471.mypinata.cloud/ipfs/Qmf49x46eVFePzwqT39tNjdCghfsXQEAj1aqMRs4kCpyQC",
     imageAspectRatio: '1:1',
     intents: [
       <Button value="1">1</Button>,
@@ -41,7 +41,7 @@ app.frame('/picker', (c) => {
 
     return c.res({
       action: '/',
-      image: '${process.env.NEXT_PUBLIC_SITE_URL}/1.png',
+      image: "https://azure-ready-parakeet-471.mypinata.cloud/ipfs/QmPanvet46EwhDJQ85X3uf9ntmue99rjDBVViRKNeEaPjh",
       imageAspectRatio: '1:1',
       intents: [
        <Button >Start Over 🔄</Button>
@@ -54,7 +54,7 @@ app.frame('/picker', (c) => {
   if (buttonValue === '69') {
     return c.res({
       action: '/',
-      image: '${process.env.NEXT_PUBLIC_SITE_URL}/69.png',
+      image: "https://azure-ready-parakeet-471.mypinata.cloud/ipfs/QmRdMBCDnxjnw6SJ2farcPY63gER6yVjTVRF2o7nS4deBP",
       imageAspectRatio: '1:1',
       intents: [
        <Button >Start Over 🔄</Button>
@@ -67,7 +67,7 @@ app.frame('/picker', (c) => {
 
   return c.res({
     action: '/',
-    image: '${process.env.NEXT_PUBLIC_SITE_URL}/10.png',
+    image: "https://azure-ready-parakeet-471.mypinata.cloud/ipfs/QmceJbhTcyJtdWeqGbKqxoC2J9JmY9EpE5wa5yaBM13UHT",
     imageAspectRatio: '1:1',
     intents: [
      <Button >Start Over 🔄</Button>
